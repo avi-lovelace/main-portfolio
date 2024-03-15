@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.top-container {
+    background-color: rgb(255, 245, 237);
+    text-align: center;
+    position: relative;
+    font-family: "DM Sans", sans-serif;
+    color: rgb(44, 44, 44);
+}
+
+
+.display-text {
+    display: inline-block;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.2rem;
+    margin: 0;   
+    padding-bottom: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 75%;
+    margin: auto;
+    gap: 40px;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.internship {
+    padding-right: 80px;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 20px 60px 20px 0px;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: rgb(255, 245, 237);
+}
+
+a   {
+    text-align: center;
+    margin: 10px;
+    color: #496A6F;
+    font-family: "DM Sans", sans-serif;
+}
+
+.important {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 6rem;
+    font-weight: 1000;
+    margin: 0;
+}
+
+h2, h3{
+    font-size: 1.4rem;
+    padding: 20px 20px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+
+
+.self-image {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.grid-container-skill {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 50px auto 0 auto;
+    width: 75%;
+    gap: 40px;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    line-height: 1.7rem;
+}
+
+.grid-container-about {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 50px auto 0 auto;
+    width: 60%;
+    gap: 40px;
+}
+
+.gridimg {
+    display: flex;
+    border-radius: 15px;
+}
+
+.closing-statement {
+    margin: 100px auto 0 auto;
+}
+
+.closing-statement a {
+    margin: 0;
+}
+
+.bottom-container {
+    background-color: rgb(255, 245, 237);
+    padding: 50px;
+    text-align: center;
+}
+ 
+.bottom-container > p {
+    margin-top: 20px;
+    color: #496A6F;
+}
+
+.grid-item-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.grid-item-about {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    line-height: 1.7rem;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
